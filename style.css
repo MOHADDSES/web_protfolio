@@ -50,8 +50,10 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
-
-
+}
+.link-button:hover{
+    color: blue;
+    font-size: 25px;
 }
 .dream-area{
     background-image: url(image/dream-bg.png);
@@ -79,6 +81,21 @@ section{
     border-image: linear-gradient(180deg,  blue,cyan);
     border-image-slice: 1;
 }
+li:first-child{
+    color: hotpink;
+    background-color: black;
+}
+li:nth-child(2n){
+    color: chartreuse;
+    background-color: darkred;
+}
 .buttom{
     text-align: center;
+}
+a:visited{
+
+    
+}
+p::after{
+    content:"❤️" ;
 }
